@@ -1,0 +1,18 @@
+{
+  "scripts": {
+    "start": "node src/app.js",
+    "server": "nodemon src/app.js",
+    "tailwind:css": "postcss public/styles/tailwind.css -o public/styles/style.css"
+  },
+  "dependencies": {
+    "autoprefixer": "^10.4.13",
+    "ejs": "^3.1.8",
+    "express": "^4.18.2",
+    "mongoose": "^6.9.0",
+    "nodemon": "^2.0.20",
+    "postcss-cli": "^10.1.0"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.2.6"
+  }
+}
